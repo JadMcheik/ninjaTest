@@ -1,20 +1,5 @@
 const Footer = () => {
-    return ( 
+  return <footer>Copyright 2024 ninja test</footer>;
+};
 
-<footer>
-
-
-
-Copyright 2024 ninja test
-
-
-</footer>
-
-
-
-
-
-     );
-}
- 
 export default Footer;
