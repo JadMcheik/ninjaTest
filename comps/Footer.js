@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
 
-<div>
+<footer>
 
 
 
@@ -9,7 +9,7 @@ const Footer = () => {
 Copyright 2024 ninja test
 
 
-</div>
+</footer>
 
 
 
