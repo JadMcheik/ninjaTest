@@ -15,7 +15,7 @@ a {
 }
 nav {
   margin: 10px auto 80px;
-  padding: 10px 0;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -37,8 +37,6 @@ nav li {
 
 nav li a{
     display: block;
-    padding: 8px;
-  
 
 }
 nav .logo {
