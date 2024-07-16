@@ -18,11 +18,28 @@ nav {
   padding: 10px 0;
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   border-bottom: 1px solid #ddd;
 }
-nav a {
+nav a{
   margin-left: 12px;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav li {
+    float: left;
+  }
+
+nav li a{
+    display: block;
+    padding: 8px;
+  
+
 }
 nav .logo {
   margin-right: auto;

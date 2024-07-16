@@ -7,16 +7,19 @@ const Navbar = () => {
 <nav>
 
 <div className="logo">
-
+<Link href="/">
 <Image src="/ninja-logo.png" width={150} height={90}/>
 
-
+</Link>
 </div>
-<Link href="/"> home</Link>
-<Link href="/about"> about</Link>
-<Link href="/53"> Error page</Link>
+<ul>
+    <li><Link href="/about"> About</Link></li>
+
+    <li> <Link href="/53"> Error page</Link></li>
 
 
+
+</ul>
 
 
 

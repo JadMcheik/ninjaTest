@@ -18,7 +18,7 @@ export default function Home() {
 </Head>
     <div>
       <h1>Home page</h1>
-      <p>this is a test of a home page content</p>
+      <p>This is a test of a home page content</p>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -45,5 +45,5 @@ export default function Home() {
 
     </>
 
-  );
+  )
 }
