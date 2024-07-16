@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 const NotFound = () => {
 
 
@@ -21,7 +22,12 @@ router.push('/')
 
     return (  
 
+<>
+<Head>
 
+<title>Ninja | Error</title>
+
+</Head>
 <div className="not-found">
 
 <h1>Oooops....</h1>
@@ -31,7 +37,7 @@ router.push('/')
 Go back to the <Link href="/" legacyBehavior>Homepage</Link>
 
 </div>
-
+</>
 
 
     );

@@ -1,6 +1,12 @@
+import Head from "next/head";
 const about = () => {
     return ( 
+<>
+<Head>
 
+<title>Ninja | about</title>
+
+</Head>
 <div>
 <h1>hello world</h1>
 <h2>about </h2>
@@ -14,7 +20,7 @@ const about = () => {
 </div>
 
 
-
+</>
 
      );
 }

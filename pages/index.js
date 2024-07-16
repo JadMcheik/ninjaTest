@@ -10,6 +10,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
+<>
+<Head>
+
+<title>Ninja | Home</title>
+
+</Head>
     <div>
       <h1>Home page</h1>
       <p>this is a test of a home page content</p>
@@ -36,5 +42,8 @@ export default function Home() {
         of Lorem Ipsum.
       </p>
     </div>
+
+    </>
+
   );
 }
