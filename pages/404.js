@@ -16,7 +16,7 @@ const NotFound = () => {
 router.push('/')
 
 
-        }, 5000);
+        }, 4000);
 
     }, []);
 

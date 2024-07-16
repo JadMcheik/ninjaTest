@@ -5,7 +5,6 @@ const Footer = () => {
 
 
 
-
 Copyright 2024 ninja test
 
 
